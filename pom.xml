@@ -12,7 +12,6 @@
     <module>dependency-worldedit</module>
     <module>dependency-worldguard</module>
     <module>spigot-plugin</module>
-    <module>documentation</module>
   </modules>
     
   <name>ZoneMenu :: Parent</name>
