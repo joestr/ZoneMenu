@@ -8,9 +8,6 @@
   <packaging>pom</packaging>
   
   <modules>
-    <module>dependency-spigot-api</module>
-    <module>dependency-worldedit</module>
-    <module>dependency-worldguard</module>
     <module>spigot-plugin</module>
   </modules>
     
@@ -80,6 +77,20 @@
       <id>central</id>
       <layout>default</layout>
       <url>https://repo1.maven.org/maven2</url>
+    </repository>
+    <repository>
+      <id>spigotmc-repo</id>
+      <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+    </repository>
+    <repository>
+      <id>sk89q-repo</id>
+      <url>https://maven.enginehub.org/repo/</url>
     </repository>
   </repositories>
 </project>

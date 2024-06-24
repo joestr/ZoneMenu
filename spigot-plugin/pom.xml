@@ -25,25 +25,22 @@
   
   <dependencies>
     <dependency>
-      <groupId>at.joestr.zonemenu</groupId>
-      <artifactId>dependency-spigot-api</artifactId>
-      <version>0.3.0-SNAPSHOT</version>
-      <type>pom</type>
-      <scope>provided</scope>
+      <groupId>org.spigotmc</groupId>
+      <artifactId>spigot-api</artifactId>
+      <version>1.20.2-R0.1-SNAPSHOT</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>at.joestr.zonemenu</groupId>
-      <artifactId>dependency-worldedit</artifactId>
-      <version>0.3.0-SNAPSHOT</version>
-      <type>pom</type>
-      <scope>provided</scope>
+      <groupId>com.sk89q.worldedit</groupId>
+      <artifactId>worldedit-bukkit</artifactId>
+      <version>7.3.0-SNAPSHOT</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>at.joestr.zonemenu</groupId>
-      <artifactId>dependency-worldguard</artifactId>
-      <version>0.3.0-SNAPSHOT</version>
-      <type>pom</type>
-      <scope>provided</scope>
+      <groupId>com.sk89q.worldguard</groupId>
+      <artifactId>worldguard-bukkit</artifactId>
+      <version>7.1.0-SNAPSHOT</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>at.joestr.javacommon</groupId>
